@@ -1,0 +1,22 @@
+{
+    "livingroom": {
+        "name": "livingroom", 
+        "doors_to": ["stair"], 
+        "floor": 1},
+    "kitchen": {
+        "name": "kitchen", 
+        "doors_to": ["stair"], 
+        "floor": 1},
+    "bathroom": {
+        "name": "bathroom", 
+        "doors_to": ["stair"], 
+        "floor": 1},
+    "stair": {
+        "name": "stair",
+        "doors_to":["livingroom", "kitchen", "bathroom", "bedroom"],
+        "floor":-1},
+    "bedroom": {
+        "name": "bedroom", 
+        "doors_to": ["stair"], 
+        "floor":2}
+}

@@ -1,0 +1,1053 @@
+houseagent                     Trying to use intention SensorIntention to achieve goal {SensorGoal#0:{}}
+maidagent                      [move] maidagent -> bathroom
+maidagent                      Trying to use intention MaidSensorIntention to achieve goal {MaidSensorGoal#1:{}}
+[33m[status] dad is comfort[0m
+[33m[move] dad -> bedroom[0m
+[33m[status] mom is comfort[0m
+[33m[move] mom -> bedroom[0m
+[33m[status] child is comfort[0m
+[33m[move] child -> bedroom[0m
+houseagent                     Belief changed:      in light-livingroom livingroom
+houseagent                     Belief changed:      is_light light-livingroom
+houseagent                     Belief changed:      is_room livingroom
+houseagent                     Belief changed:      off light-livingroom
+houseagent                     Belief changed: NOT  on light-livingroom
+houseagent                     Belief changed:      in heater-livingroom livingroom
+houseagent                     Belief changed:      is_heater heater-livingroom
+houseagent                     Belief changed: NOT  on heater-livingroom
+houseagent                     Belief changed:      off heater-livingroom
+houseagent                     Belief changed:      in windows-livingroom livingroom
+houseagent                     Belief changed:      is_windows windows-livingroom
+houseagent                     Belief changed: NOT  opened windows-livingroom
+houseagent                     Belief changed:      closed windows-livingroom
+houseagent                     Belief changed:      in heater-bathroom bathroom
+houseagent                     Belief changed:      is_heater heater-bathroom
+houseagent                     Belief changed:      is_room bathroom
+houseagent                     Belief changed: NOT  on heater-bathroom
+houseagent                     Belief changed:      off heater-bathroom
+houseagent                     Belief changed:      in light-bathroom bathroom
+houseagent                     Belief changed:      is_light light-bathroom
+houseagent                     Belief changed: NOT  on light-bathroom
+houseagent                     Belief changed:      off light-bathroom
+houseagent                     Belief changed:      in windows-bathroom bathroom
+houseagent                     Belief changed:      is_windows windows-bathroom
+houseagent                     Belief changed: NOT  opened windows-bathroom
+houseagent                     Belief changed:      closed windows-bathroom
+houseagent                     Belief changed:      in heater-kitchen kitchen
+houseagent                     Belief changed:      is_heater heater-kitchen
+houseagent                     Belief changed:      is_room kitchen
+houseagent                     Belief changed: NOT  on heater-kitchen
+houseagent                     Belief changed:      off heater-kitchen
+houseagent                     Belief changed:      in light-kitchen kitchen
+houseagent                     Belief changed:      is_light light-kitchen
+houseagent                     Belief changed: NOT  on light-kitchen
+houseagent                     Belief changed:      off light-kitchen
+houseagent                     Belief changed:      in windows-kitchen kitchen
+houseagent                     Belief changed:      is_windows windows-kitchen
+houseagent                     Belief changed: NOT  opened windows-kitchen
+houseagent                     Belief changed:      closed windows-kitchen
+houseagent                     Belief changed:      in light-stair stair
+houseagent                     Belief changed:      is_light light-stair
+houseagent                     Belief changed:      is_room stair
+houseagent                     Belief changed:      off light-stair
+houseagent                     Belief changed: NOT  on light-stair
+houseagent                     Belief changed:      in heater-stair stair
+houseagent                     Belief changed:      is_heater heater-stair
+houseagent                     Belief changed: NOT  on heater-stair
+houseagent                     Belief changed:      off heater-stair
+houseagent                     Belief changed:      in windows-stair stair
+houseagent                     Belief changed:      is_windows windows-stair
+houseagent                     Belief changed: NOT  opened windows-stair
+houseagent                     Belief changed:      closed windows-stair
+houseagent                     Belief changed:      in heater-bedroom bedroom
+houseagent                     Belief changed:      is_heater heater-bedroom
+houseagent                     Belief changed:      is_room bedroom
+houseagent                     Belief changed: NOT  on heater-bedroom
+houseagent                     Belief changed:      off heater-bedroom
+houseagent                     Belief changed:      in light-bedroom bedroom
+houseagent                     Belief changed:      is_light light-bedroom
+houseagent                     Belief changed: NOT  on light-bedroom
+houseagent                     Belief changed:      off light-bedroom
+houseagent                     Belief changed:      in windows-bedroom bedroom
+houseagent                     Belief changed:      is_windows windows-bedroom
+houseagent                     Belief changed: NOT  opened windows-bedroom
+houseagent                     Belief changed:      closed windows-bedroom
+maidagent                      Belief changed: NOT  in maidagent livingroom
+houseagent                     Maid saw: NOT  in maidagent livingroom
+maidagent                      Belief changed:      in maidagent bathroom
+houseagent                     Maid saw:      in maidagent bathroom
+maidagent                      Belief changed: NOT  in maidagent kitchen
+houseagent                     Maid saw: NOT  in maidagent kitchen
+maidagent                      Belief changed: NOT  in maidagent stair
+houseagent                     Maid saw: NOT  in maidagent stair
+maidagent                      Belief changed: NOT  in maidagent bedroom
+houseagent                     Maid saw: NOT  in maidagent bedroom
+maidagent                      Belief changed:      is_human dad
+houseagent                     Maid saw:      is_human dad
+maidagent                      Belief changed: NOT  in dad livingroom
+houseagent                     Maid saw: NOT  in dad livingroom
+maidagent                      Belief changed: NOT  in dad bathroom
+houseagent                     Maid saw: NOT  in dad bathroom
+maidagent                      Belief changed: NOT  in dad kitchen
+houseagent                     Maid saw: NOT  in dad kitchen
+maidagent                      Belief changed: NOT  in dad stair
+houseagent                     Maid saw: NOT  in dad stair
+maidagent                      Belief changed:      in dad bedroom
+houseagent                     Maid saw:      in dad bedroom
+maidagent                      Belief changed:      is_human mom
+houseagent                     Maid saw:      is_human mom
+maidagent                      Belief changed: NOT  in mom livingroom
+houseagent                     Maid saw: NOT  in mom livingroom
+maidagent                      Belief changed: NOT  in mom bathroom
+houseagent                     Maid saw: NOT  in mom bathroom
+maidagent                      Belief changed: NOT  in mom kitchen
+houseagent                     Maid saw: NOT  in mom kitchen
+maidagent                      Belief changed: NOT  in mom stair
+houseagent                     Maid saw: NOT  in mom stair
+maidagent                      Belief changed:      in mom bedroom
+houseagent                     Maid saw:      in mom bedroom
+maidagent                      Belief changed:      is_human child
+houseagent                     Maid saw:      is_human child
+maidagent                      Belief changed: NOT  in child livingroom
+houseagent                     Maid saw: NOT  in child livingroom
+maidagent                      Belief changed: NOT  in child bathroom
+houseagent                     Maid saw: NOT  in child bathroom
+maidagent                      Belief changed: NOT  in child kitchen
+houseagent                     Maid saw: NOT  in child kitchen
+maidagent                      Belief changed: NOT  in child stair
+houseagent                     Maid saw: NOT  in child stair
+maidagent                      Belief changed:      in child bedroom
+houseagent                     Maid saw:      in child bedroom
+houseagent                     Belief changed:      is_agent maidagent
+maidagent                      Belief changed:      is_master houseagent
+houseagent                     Maid saw:      is_master houseagent
+maidagent                      Belief changed:      is_agent maidagent
+houseagent                     Maid saw:      is_agent maidagent
+maidagent                      Belief changed:      in light-livingroom livingroom
+houseagent                     Maid saw:      in light-livingroom livingroom
+maidagent                      Belief changed:      is_light light-livingroom
+houseagent                     Maid saw:      is_light light-livingroom
+maidagent                      Belief changed:      is_room livingroom
+houseagent                     Maid saw:      is_room livingroom
+maidagent                      Belief changed:      in heater-livingroom livingroom
+houseagent                     Maid saw:      in heater-livingroom livingroom
+maidagent                      Belief changed:      is_heater heater-livingroom
+houseagent                     Maid saw:      is_heater heater-livingroom
+maidagent                      Belief changed:      in windows-livingroom livingroom
+houseagent                     Maid saw:      in windows-livingroom livingroom
+maidagent                      Belief changed:      is_windows windows-livingroom
+houseagent                     Maid saw:      is_windows windows-livingroom
+maidagent                      Belief changed:      in heater-bathroom bathroom
+houseagent                     Maid saw:      in heater-bathroom bathroom
+maidagent                      Belief changed:      is_heater heater-bathroom
+houseagent                     Maid saw:      is_heater heater-bathroom
+maidagent                      Belief changed:      is_room bathroom
+houseagent                     Maid saw:      is_room bathroom
+maidagent                      Belief changed:      in light-bathroom bathroom
+houseagent                     Maid saw:      in light-bathroom bathroom
+maidagent                      Belief changed:      is_light light-bathroom
+houseagent                     Maid saw:      is_light light-bathroom
+maidagent                      Belief changed:      in windows-bathroom bathroom
+houseagent                     Maid saw:      in windows-bathroom bathroom
+maidagent                      Belief changed:      is_windows windows-bathroom
+houseagent                     Maid saw:      is_windows windows-bathroom
+maidagent                      Belief changed:      in heater-kitchen kitchen
+houseagent                     Maid saw:      in heater-kitchen kitchen
+maidagent                      Belief changed:      is_heater heater-kitchen
+houseagent                     Maid saw:      is_heater heater-kitchen
+maidagent                      Belief changed:      is_room kitchen
+houseagent                     Maid saw:      is_room kitchen
+maidagent                      Belief changed:      in light-kitchen kitchen
+houseagent                     Maid saw:      in light-kitchen kitchen
+maidagent                      Belief changed:      is_light light-kitchen
+houseagent                     Maid saw:      is_light light-kitchen
+maidagent                      Belief changed:      in windows-kitchen kitchen
+houseagent                     Maid saw:      in windows-kitchen kitchen
+maidagent                      Belief changed:      is_windows windows-kitchen
+houseagent                     Maid saw:      is_windows windows-kitchen
+maidagent                      Belief changed:      in light-stair stair
+houseagent                     Maid saw:      in light-stair stair
+maidagent                      Belief changed:      is_light light-stair
+houseagent                     Maid saw:      is_light light-stair
+maidagent                      Belief changed:      is_room stair
+houseagent                     Maid saw:      is_room stair
+maidagent                      Belief changed:      in heater-stair stair
+houseagent                     Maid saw:      in heater-stair stair
+maidagent                      Belief changed:      is_heater heater-stair
+houseagent                     Maid saw:      is_heater heater-stair
+maidagent                      Belief changed:      in windows-stair stair
+houseagent                     Maid saw:      in windows-stair stair
+maidagent                      Belief changed:      is_windows windows-stair
+houseagent                     Maid saw:      is_windows windows-stair
+maidagent                      Belief changed:      in heater-bedroom bedroom
+houseagent                     Maid saw:      in heater-bedroom bedroom
+maidagent                      Belief changed:      is_heater heater-bedroom
+houseagent                     Maid saw:      is_heater heater-bedroom
+maidagent                      Belief changed:      is_room bedroom
+houseagent                     Maid saw:      is_room bedroom
+maidagent                      Belief changed:      in light-bedroom bedroom
+houseagent                     Maid saw:      in light-bedroom bedroom
+maidagent                      Belief changed:      is_light light-bedroom
+houseagent                     Maid saw:      is_light light-bedroom
+maidagent                      Belief changed:      in windows-bedroom bedroom
+houseagent                     Maid saw:      in windows-bedroom bedroom
+maidagent                      Belief changed:      is_windows windows-bedroom
+houseagent                     Maid saw:      is_windows windows-bedroom
+maidagent                      Belief changed:      off light-livingroom
+houseagent                     Maid saw:      off light-livingroom
+maidagent                      Belief changed: NOT  on light-livingroom
+houseagent                     Maid saw: NOT  on light-livingroom
+maidagent                      Belief changed: NOT  on heater-livingroom
+houseagent                     Maid saw: NOT  on heater-livingroom
+maidagent                      Belief changed:      off heater-livingroom
+houseagent                     Maid saw:      off heater-livingroom
+maidagent                      Belief changed: NOT  opened windows-livingroom
+houseagent                     Maid saw: NOT  opened windows-livingroom
+maidagent                      Belief changed:      closed windows-livingroom
+houseagent                     Maid saw:      closed windows-livingroom
+maidagent                      Belief changed: NOT  on heater-bathroom
+houseagent                     Maid saw: NOT  on heater-bathroom
+maidagent                      Belief changed:      off heater-bathroom
+houseagent                     Maid saw:      off heater-bathroom
+maidagent                      Belief changed: NOT  on light-bathroom
+houseagent                     Maid saw: NOT  on light-bathroom
+maidagent                      Belief changed:      off light-bathroom
+houseagent                     Maid saw:      off light-bathroom
+maidagent                      Belief changed: NOT  opened windows-bathroom
+houseagent                     Maid saw: NOT  opened windows-bathroom
+maidagent                      Belief changed:      closed windows-bathroom
+houseagent                     Maid saw:      closed windows-bathroom
+maidagent                      Belief changed: NOT  on heater-kitchen
+houseagent                     Maid saw: NOT  on heater-kitchen
+maidagent                      Belief changed:      off heater-kitchen
+houseagent                     Maid saw:      off heater-kitchen
+maidagent                      Belief changed: NOT  on light-kitchen
+houseagent                     Maid saw: NOT  on light-kitchen
+maidagent                      Belief changed:      off light-kitchen
+houseagent                     Maid saw:      off light-kitchen
+maidagent                      Belief changed: NOT  opened windows-kitchen
+houseagent                     Maid saw: NOT  opened windows-kitchen
+maidagent                      Belief changed:      closed windows-kitchen
+houseagent                     Maid saw:      closed windows-kitchen
+maidagent                      Belief changed:      off light-stair
+houseagent                     Maid saw:      off light-stair
+maidagent                      Belief changed: NOT  on light-stair
+houseagent                     Maid saw: NOT  on light-stair
+maidagent                      Belief changed: NOT  on heater-stair
+houseagent                     Maid saw: NOT  on heater-stair
+maidagent                      Belief changed:      off heater-stair
+houseagent                     Maid saw:      off heater-stair
+maidagent                      Belief changed: NOT  opened windows-stair
+houseagent                     Maid saw: NOT  opened windows-stair
+maidagent                      Belief changed:      closed windows-stair
+houseagent                     Maid saw:      closed windows-stair
+maidagent                      Belief changed: NOT  on heater-bedroom
+houseagent                     Maid saw: NOT  on heater-bedroom
+maidagent                      Belief changed:      off heater-bedroom
+houseagent                     Maid saw:      off heater-bedroom
+maidagent                      Belief changed: NOT  on light-bedroom
+houseagent                     Maid saw: NOT  on light-bedroom
+maidagent                      Belief changed:      off light-bedroom
+houseagent                     Maid saw:      off light-bedroom
+maidagent                      Belief changed: NOT  opened windows-bedroom
+houseagent                     Maid saw: NOT  opened windows-bedroom
+maidagent                      Belief changed:      closed windows-bedroom
+houseagent                     Maid saw:      closed windows-bedroom
+houseagent                     Belief changed: NOT  in maidagent livingroom
+houseagent                     Belief changed:      in maidagent bathroom
+houseagent                     Belief changed: NOT  in maidagent kitchen
+houseagent                     Belief changed: NOT  in maidagent stair
+houseagent                     Belief changed: NOT  in maidagent bedroom
+houseagent                     Belief changed:      is_human dad
+houseagent                     Belief changed: NOT  in dad livingroom
+houseagent                     Belief changed: NOT  in dad bathroom
+houseagent                     Belief changed: NOT  in dad kitchen
+houseagent                     Belief changed: NOT  in dad stair
+houseagent                     Belief changed:      in dad bedroom
+houseagent                     Belief changed:      is_human mom
+houseagent                     Belief changed: NOT  in mom livingroom
+houseagent                     Belief changed: NOT  in mom bathroom
+houseagent                     Belief changed: NOT  in mom kitchen
+houseagent                     Belief changed: NOT  in mom stair
+houseagent                     Belief changed:      in mom bedroom
+houseagent                     Belief changed:      is_human child
+houseagent                     Belief changed: NOT  in child livingroom
+houseagent                     Belief changed: NOT  in child bathroom
+houseagent                     Belief changed: NOT  in child kitchen
+houseagent                     Belief changed: NOT  in child stair
+houseagent                     Belief changed:      in child bedroom
+houseagent                     Belief changed:      is_master houseagent
+houseagent>SensorIntention#0   [sense] off light-livingroom
+houseagent>SensorIntention#0   [sense] off heater-livingroom
+houseagent>SensorIntention#0   [sense] closed windows-livingroom
+houseagent>SensorIntention#0   [sense] off heater-bathroom
+houseagent>SensorIntention#0   [sense] off light-bathroom
+houseagent>SensorIntention#0   [sense] closed windows-bathroom
+houseagent>SensorIntention#0   [sense] off heater-kitchen
+houseagent>SensorIntention#0   [sense] off light-kitchen
+houseagent>SensorIntention#0   [sense] closed windows-kitchen
+houseagent>SensorIntention#0   [sense] off light-stair
+houseagent>SensorIntention#0   [sense] off heater-stair
+houseagent>SensorIntention#0   [sense] closed windows-stair
+houseagent>SensorIntention#0   [sense] off heater-bedroom
+houseagent>SensorIntention#0   [sense] off light-bedroom
+houseagent>SensorIntention#0   [sense] closed windows-bedroom
+d:hh:mm 0:00:15	d:hh:mm 0:00:30	d:hh:mm 0:00:45	d:hh:mm 0:01:00	d:hh:mm 0:01:15	d:hh:mm 0:01:30	d:hh:mm 0:01:45	d:hh:mm 0:02:00	d:hh:mm 0:02:15	d:hh:mm 0:02:30	d:hh:mm 0:02:45	d:hh:mm 0:03:00	d:hh:mm 0:03:15	d:hh:mm 0:03:30	d:hh:mm 0:03:45	d:hh:mm 0:04:00	d:hh:mm 0:04:15	d:hh:mm 0:04:30	d:hh:mm 0:04:45	d:hh:mm 0:05:00	d:hh:mm 0:05:15	d:hh:mm 0:05:30	d:hh:mm 0:05:45	d:hh:mm 0:06:00	[34m[person] (child) move from (bedroom) to (livingroom)[0m
+[32m[device] light-bedroom (on)[0m
+[32m[device] light-stair (on)[0m
+[32m[device] light-livingroom (on)[0m
+[34m[person] (dad) move from (bedroom) to (bathroom)[0m
+[30m[device] light-bedroom still (on)[0m
+[30m[device] light-stair still (on)[0m
+[32m[device] light-bathroom (on)[0m
+[34m[person] (mom) move from (bedroom) to (livingroom)[0m
+[30m[device] light-bedroom still (on)[0m
+[30m[device] light-stair still (on)[0m
+[30m[device] light-livingroom still (on)[0m
+houseagent                     Trying to use intention PlanningIntention to achieve goal {PddlGoal#2:{goal:["off light-livingroom","off light-bathroom","off light-kitchen","off light-stair","off light-bedroom","off light-livingroom","off light-bathroom","off light-kitchen","off light-stair","off light-bedroom"]}}
+maidagent                      Trying to use intention PlanningIntention to achieve goal {PddlGoal#3:{goal:["comfort mom","comfort dad","comfort child"]}}
+[33m[move] child -> stair[0m
+[33m[move] child -> livingroom[0m
+[33m[status] child is hot[0m
+[33m[move] dad -> stair[0m
+[33m[move] dad -> bathroom[0m
+[33m[status] dad is hot[0m
+[33m[move] mom -> stair[0m
+[33m[move] mom -> livingroom[0m
+[33m[status] mom is need_air[0m
+maidagent                      Belief changed:      in dad bathroom
+houseagent                     Maid saw:      in dad bathroom
+maidagent                      Belief changed: NOT  in dad bedroom
+houseagent                     Maid saw: NOT  in dad bedroom
+maidagent                      Belief changed: NOT  cold dad
+houseagent                     Maid saw: NOT  cold dad
+maidagent                      Belief changed:      hot dad
+houseagent                     Maid saw:      hot dad
+maidagent                      Belief changed: NOT  need_air dad
+houseagent                     Maid saw: NOT  need_air dad
+maidagent                      Belief changed: NOT  hungry dad
+houseagent                     Maid saw: NOT  hungry dad
+maidagent                      Belief changed: NOT  comfort dad
+houseagent                     Maid saw: NOT  comfort dad
+maidagent                      Belief changed:      in mom livingroom
+houseagent                     Maid saw:      in mom livingroom
+maidagent                      Belief changed: NOT  in mom bedroom
+houseagent                     Maid saw: NOT  in mom bedroom
+maidagent                      Belief changed: NOT  cold mom
+houseagent                     Maid saw: NOT  cold mom
+maidagent                      Belief changed: NOT  hot mom
+houseagent                     Maid saw: NOT  hot mom
+maidagent                      Belief changed:      need_air mom
+houseagent                     Maid saw:      need_air mom
+maidagent                      Belief changed: NOT  hungry mom
+houseagent                     Maid saw: NOT  hungry mom
+maidagent                      Belief changed: NOT  comfort mom
+houseagent                     Maid saw: NOT  comfort mom
+maidagent                      Belief changed:      in child livingroom
+houseagent                     Maid saw:      in child livingroom
+maidagent                      Belief changed: NOT  in child bedroom
+houseagent                     Maid saw: NOT  in child bedroom
+maidagent                      Belief changed: NOT  cold child
+houseagent                     Maid saw: NOT  cold child
+maidagent                      Belief changed:      hot child
+houseagent                     Maid saw:      hot child
+maidagent                      Belief changed: NOT  need_air child
+houseagent                     Maid saw: NOT  need_air child
+maidagent                      Belief changed: NOT  hungry child
+houseagent                     Maid saw: NOT  hungry child
+maidagent                      Belief changed: NOT  comfort child
+houseagent                     Maid saw: NOT  comfort child
+houseagent                     Belief changed:      in dad bathroom
+houseagent                     Belief changed: NOT  in dad bedroom
+houseagent                     Belief changed: NOT  cold dad
+houseagent                     Belief changed:      hot dad
+houseagent                     Belief changed: NOT  need_air dad
+houseagent                     Belief changed: NOT  hungry dad
+houseagent                     Belief changed: NOT  comfort dad
+houseagent                     Belief changed:      in mom livingroom
+houseagent                     Belief changed: NOT  in mom bedroom
+houseagent                     Belief changed: NOT  cold mom
+houseagent                     Belief changed: NOT  hot mom
+houseagent                     Belief changed:      need_air mom
+houseagent                     Belief changed: NOT  hungry mom
+houseagent                     Belief changed: NOT  comfort mom
+houseagent                     Belief changed:      in child livingroom
+houseagent                     Belief changed: NOT  in child bedroom
+houseagent                     Belief changed: NOT  cold child
+houseagent                     Belief changed:      hot child
+houseagent                     Belief changed: NOT  need_air child
+houseagent                     Belief changed: NOT  hungry child
+houseagent                     Belief changed: NOT  comfort child
+houseagent>SensorIntention#0   [sense] on light-bedroom
+houseagent>SensorIntention#0   [sense] on light-stair
+houseagent>SensorIntention#0   [sense] on light-livingroom
+maidagent>MaidSensorIntention#1 [sense] dad in bathroom
+maidagent>MaidSensorIntention#1 [sense] dad is hot
+houseagent>SensorIntention#0   [sense] on light-bathroom
+houseagent                     Belief changed:      on light-bedroom
+houseagent                     Belief changed: NOT  off light-bedroom
+houseagent                     Belief changed: NOT  off light-stair
+houseagent                     Belief changed:      on light-stair
+houseagent                     Belief changed: NOT  off light-livingroom
+houseagent                     Belief changed:      on light-livingroom
+houseagent                     Belief changed:      on light-bathroom
+houseagent                     Belief changed: NOT  off light-bathroom
+maidagent                      Belief changed:      on light-bedroom
+houseagent                     Maid saw:      on light-bedroom
+maidagent                      Belief changed: NOT  off light-bedroom
+houseagent                     Maid saw: NOT  off light-bedroom
+maidagent                      Belief changed: NOT  off light-stair
+houseagent                     Maid saw: NOT  off light-stair
+maidagent                      Belief changed:      on light-stair
+houseagent                     Maid saw:      on light-stair
+maidagent                      Belief changed: NOT  off light-livingroom
+houseagent                     Maid saw: NOT  off light-livingroom
+maidagent                      Belief changed:      on light-livingroom
+houseagent                     Maid saw:      on light-livingroom
+maidagent                      Belief changed:      on light-bathroom
+houseagent                     Maid saw:      on light-bathroom
+maidagent                      Belief changed: NOT  off light-bathroom
+houseagent                     Maid saw: NOT  off light-bathroom
+d:hh:mm 0:06:15	maidagent>PlanningIntention#3   =========== PLAN =========== 
+maidagent>PlanningIntention#3  1 (openwindows livingroom windows-livingroom)
+maidagent>PlanningIntention#3  1 (reducehot livingroom child heater-livingroom)
+maidagent>PlanningIntention#3  1 (reducehot bathroom dad heater-bathroom)
+maidagent>PlanningIntention#3  2 (increaseair livingroom mom windows-livingroom)
+maidagent>PlanningIntention#3   =========== END PLAN =========== 
+maidagent>PlanningIntention#3  Starting sequential step with Intention: 
+ - Action: Openwindows
+ - Params: livingroom windows-livingroom)
+ - Effect: opened windows-livingroom
+[32m[device] windows-livingroom (opened)[0m
+maidagent>Openwindows#4        [SUCCESSED] opened windows-livingroom
+houseagent>SensorIntention#0   [sense] opened windows-livingroom
+houseagent                     Belief changed:      opened windows-livingroom
+houseagent                     Belief changed: NOT  closed windows-livingroom
+maidagent                      Belief changed:      opened windows-livingroom
+houseagent                     Maid saw:      opened windows-livingroom
+maidagent                      Belief changed: NOT  closed windows-livingroom
+houseagent                     Maid saw: NOT  closed windows-livingroom
+d:hh:mm 0:06:30	houseagent>PlanningIntention#2  =========== PLAN =========== 
+houseagent>PlanningIntention#2 1 (checklocation maidagent bathroom dad)
+houseagent>PlanningIntention#2 2 (observeroomempty maidagent bathroom dad child mom)
+houseagent>PlanningIntention#2 3 (moveagent maidagent bathroom bedroom)
+houseagent>PlanningIntention#2 3 (lightoff light-bathroom bathroom)
+houseagent>PlanningIntention#2 4 (observeroomempty maidagent bedroom mom child dad)
+houseagent>PlanningIntention#2 5 (moveagent maidagent bedroom stair)
+houseagent>PlanningIntention#2 5 (lightoff light-bedroom bedroom)
+houseagent>PlanningIntention#2 6 (observeroomempty maidagent stair dad mom child)
+houseagent>PlanningIntention#2 7 (moveagent maidagent stair livingroom)
+houseagent>PlanningIntention#2 7 (lightoff light-stair stair)
+houseagent>PlanningIntention#2 8 (checklocation maidagent livingroom child)
+houseagent>PlanningIntention#2 8 (checklocation maidagent livingroom mom)
+houseagent>PlanningIntention#2 9 (observeroomempty maidagent livingroom mom child dad)
+houseagent>PlanningIntention#2 10 (lightoff light-livingroom livingroom)
+houseagent>PlanningIntention#2  =========== END PLAN =========== 
+houseagent>PlanningIntention#2 Starting sequential step with Intention: 
+ - Action: CheckLocation
+ - Params: maidagent bathroom dad)
+ - Effect: not in dad bathroom
+precondition not satisfied: not in dad bathroom
+maidagent>PlanningIntention#3  Starting sequential step with Intention: 
+ - Action: ReduceHot
+ - Params: livingroom child heater-livingroom)
+ - Effect: comfort child
+maidagent>ReduceHot#5          [SUCCESSED] comfort child
+[33m[status] child is comfort[0m
+houseagent>PlanningIntention#2 Starting sequential step with Intention: 
+ - Action: ObserveRoomEmpty
+ - Params: maidagent bathroom dad child mom)
+ - Effect: empty bathroom
+precondition not satisfied: not in dad bathroom
+maidagent>PlanningIntention#3  Starting sequential step with Intention: 
+ - Action: ReduceHot
+ - Params: bathroom dad heater-bathroom)
+ - Effect: comfort dad
+maidagent>ReduceHot#6          [SUCCESSED] comfort dad
+[33m[status] dad is comfort[0m
+houseagent>PlanningIntention#2 Starting sequential step with Intention: 
+ - Action: MoveAgent
+ - Params: maidagent bathroom bedroom)
+ - Effect: in maidagent bedroom,not in maidagent bathroom
+maidagent                      [move] maidagent -> bedroom
+houseagent>MoveAgent#10        [SUCCESSED] in maidagent bedroom,not in maidagent bathroom
+maidagent                      Belief changed: NOT  in maidagent bathroom
+houseagent                     Maid saw: NOT  in maidagent bathroom
+maidagent                      Belief changed:      in maidagent bedroom
+houseagent                     Maid saw:      in maidagent bedroom
+houseagent                     Belief changed: NOT  in maidagent bathroom
+houseagent                     Belief changed:      in maidagent bedroom
+maidagent>PlanningIntention#3  Starting sequential step with Intention: 
+ - Action: IncreaseAir
+ - Params: livingroom mom windows-livingroom)
+ - Effect: comfort mom
+maidagent>IncreaseAir#7        [SUCCESSED] comfort mom
+[33m[status] mom is comfort[0m
+houseagent>PlanningIntention#2 Starting sequential step with Intention: 
+ - Action: LightOff
+ - Params: light-bathroom bathroom)
+ - Effect: off light-bathroom
+precondition not satisfied: empty bathroom
+maidagent                      Succesfully used intention PlanningIntention to achieve goal {PddlGoal#3:{goal:["comfort mom","comfort dad","comfort child"]}}
+d:hh:mm 0:06:45	houseagent>PlanningIntention#2 Starting sequential step with Intention: 
+ - Action: ObserveRoomEmpty
+ - Params: maidagent bedroom mom child dad)
+ - Effect: empty bedroom
+houseagent>ObserveRoomEmpty#12 [SUCCESSED] empty bedroom
+houseagent                     Belief changed:      empty bedroom
+d:hh:mm 0:07:00	houseagent>PlanningIntention#2 Starting sequential step with Intention: 
+ - Action: MoveAgent
+ - Params: maidagent bedroom stair)
+ - Effect: in maidagent stair,not in maidagent bedroom
+maidagent                      [move] maidagent -> stair
+houseagent>MoveAgent#13        [SUCCESSED] in maidagent stair,not in maidagent bedroom
+maidagent                      Belief changed:      in maidagent stair
+houseagent                     Maid saw:      in maidagent stair
+maidagent                      Belief changed: NOT  in maidagent bedroom
+houseagent                     Maid saw: NOT  in maidagent bedroom
+houseagent                     Belief changed:      in maidagent stair
+houseagent                     Belief changed: NOT  in maidagent bedroom
+houseagent>PlanningIntention#2 Starting sequential step with Intention: 
+ - Action: LightOff
+ - Params: light-bedroom bedroom)
+ - Effect: off light-bedroom
+[32m[device] light-bedroom (off)[0m
+houseagent>LightOff#14         [SUCCESSED] off light-bedroom
+houseagent>SensorIntention#0   [sense] off light-bedroom
+houseagent                     Belief changed: NOT  on light-bedroom
+houseagent                     Belief changed:      off light-bedroom
+maidagent                      Belief changed: NOT  on light-bedroom
+houseagent                     Maid saw: NOT  on light-bedroom
+maidagent                      Belief changed:      off light-bedroom
+houseagent                     Maid saw:      off light-bedroom
+houseagent>PlanningIntention#2 Starting sequential step with Intention: 
+ - Action: ObserveRoomEmpty
+ - Params: maidagent stair dad mom child)
+ - Effect: empty stair
+houseagent>ObserveRoomEmpty#15 [SUCCESSED] empty stair
+houseagent                     Belief changed:      empty stair
+houseagent>PlanningIntention#2 Starting sequential step with Intention: 
+ - Action: MoveAgent
+ - Params: maidagent stair livingroom)
+ - Effect: in maidagent livingroom,not in maidagent stair
+maidagent                      [move] maidagent -> livingroom
+houseagent>MoveAgent#16        [SUCCESSED] in maidagent livingroom,not in maidagent stair
+maidagent                      Belief changed:      in maidagent livingroom
+houseagent                     Maid saw:      in maidagent livingroom
+maidagent                      Belief changed: NOT  in maidagent stair
+houseagent                     Maid saw: NOT  in maidagent stair
+houseagent                     Belief changed:      in maidagent livingroom
+houseagent                     Belief changed: NOT  in maidagent stair
+maidagent>MaidSensorIntention#1 [sense] mom in livingroom
+maidagent>MaidSensorIntention#1 [sense] mom is comfort
+maidagent>MaidSensorIntention#1 [sense] child in livingroom
+maidagent>MaidSensorIntention#1 [sense] child is comfort
+maidagent                      Belief changed: NOT  need_air mom
+houseagent                     Maid saw: NOT  need_air mom
+maidagent                      Belief changed:      comfort mom
+houseagent                     Maid saw:      comfort mom
+maidagent                      Belief changed: NOT  hot child
+houseagent                     Maid saw: NOT  hot child
+maidagent                      Belief changed:      comfort child
+houseagent                     Maid saw:      comfort child
+houseagent                     Belief changed: NOT  need_air mom
+houseagent                     Belief changed:      comfort mom
+houseagent                     Belief changed: NOT  hot child
+houseagent                     Belief changed:      comfort child
+houseagent>PlanningIntention#2 Starting sequential step with Intention: 
+ - Action: LightOff
+ - Params: light-stair stair)
+ - Effect: off light-stair
+[32m[device] light-stair (off)[0m
+houseagent>LightOff#17         [SUCCESSED] off light-stair
+houseagent>SensorIntention#0   [sense] off light-stair
+houseagent                     Belief changed:      off light-stair
+houseagent                     Belief changed: NOT  on light-stair
+maidagent                      Belief changed:      off light-stair
+houseagent                     Maid saw:      off light-stair
+maidagent                      Belief changed: NOT  on light-stair
+houseagent                     Maid saw: NOT  on light-stair
+houseagent>PlanningIntention#2 Starting sequential step with Intention: 
+ - Action: CheckLocation
+ - Params: maidagent livingroom child)
+ - Effect: not in child livingroom
+precondition not satisfied: not in child livingroom
+houseagent>PlanningIntention#2 Starting sequential step with Intention: 
+ - Action: CheckLocation
+ - Params: maidagent livingroom mom)
+ - Effect: not in mom livingroom
+precondition not satisfied: not in mom livingroom
+houseagent>PlanningIntention#2 Starting sequential step with Intention: 
+ - Action: ObserveRoomEmpty
+ - Params: maidagent livingroom mom child dad)
+ - Effect: empty livingroom
+precondition not satisfied: not in mom livingroom
+houseagent>PlanningIntention#2 Starting sequential step with Intention: 
+ - Action: LightOff
+ - Params: light-livingroom livingroom)
+ - Effect: off light-livingroom
+precondition not satisfied: empty livingroom
+houseagent                     Succesfully used intention PlanningIntention to achieve goal {PddlGoal#2:{goal:["off light-livingroom","off light-bathroom","off light-kitchen","off light-stair","off light-bedroom","off light-livingroom","off light-bathroom","off light-kitchen","off light-stair","off light-bedroom"]}}
+d:hh:mm 0:07:15	d:hh:mm 0:07:30	d:hh:mm 0:07:45	d:hh:mm 0:08:00	d:hh:mm 0:08:15	d:hh:mm 0:08:30	d:hh:mm 0:08:45	d:hh:mm 0:09:00	d:hh:mm 0:09:15	d:hh:mm 0:09:30	d:hh:mm 0:09:45	d:hh:mm 0:10:00	d:hh:mm 0:10:15	d:hh:mm 0:10:30	d:hh:mm 0:10:45	d:hh:mm 0:11:00	d:hh:mm 0:11:15	d:hh:mm 0:11:30	d:hh:mm 0:11:45	d:hh:mm 0:12:00	[34m[person] (child) move from (livingroom) to (kitchen)[0m
+[30m[device] light-livingroom still (on)[0m
+[32m[device] light-stair (on)[0m
+[32m[device] light-kitchen (on)[0m
+[34m[person] (dad) move from (bathroom) to (livingroom)[0m
+[30m[device] light-bathroom still (on)[0m
+[30m[device] light-stair still (on)[0m
+[30m[device] light-livingroom still (on)[0m
+[34m[person] (mom) move from (livingroom) to (bathroom)[0m
+[30m[device] light-livingroom still (on)[0m
+[30m[device] light-stair still (on)[0m
+[30m[device] light-bathroom still (on)[0m
+houseagent                     Trying to use intention PlanningIntention to achieve goal {PddlGoal#22:{goal:["off light-livingroom","off light-bathroom","off light-kitchen","off light-stair","off light-bedroom","off light-livingroom","off light-bathroom","off light-kitchen","off light-stair","off light-bedroom"]}}
+maidagent                      Trying to use intention PlanningIntention to achieve goal {PddlGoal#23:{goal:["comfort mom","comfort dad","comfort child"]}}
+[33m[move] child -> stair[0m
+[33m[move] child -> kitchen[0m
+[33m[status] child is hungry[0m
+[33m[move] dad -> stair[0m
+[33m[move] dad -> livingroom[0m
+[33m[status] dad is hungry[0m
+[33m[move] mom -> stair[0m
+[33m[move] mom -> bathroom[0m
+[33m[status] mom is hungry[0m
+maidagent                      Belief changed:      in dad livingroom
+houseagent                     Maid saw:      in dad livingroom
+maidagent                      Belief changed: NOT  in dad bathroom
+houseagent                     Maid saw: NOT  in dad bathroom
+maidagent                      Belief changed: NOT  hot dad
+houseagent                     Maid saw: NOT  hot dad
+maidagent                      Belief changed:      hungry dad
+houseagent                     Maid saw:      hungry dad
+maidagent                      Belief changed: NOT  in mom livingroom
+houseagent                     Maid saw: NOT  in mom livingroom
+maidagent                      Belief changed:      in mom bathroom
+houseagent                     Maid saw:      in mom bathroom
+maidagent                      Belief changed:      hungry mom
+houseagent                     Maid saw:      hungry mom
+maidagent                      Belief changed: NOT  comfort mom
+houseagent                     Maid saw: NOT  comfort mom
+maidagent                      Belief changed: NOT  in child livingroom
+houseagent                     Maid saw: NOT  in child livingroom
+maidagent                      Belief changed:      in child kitchen
+houseagent                     Maid saw:      in child kitchen
+maidagent                      Belief changed:      hungry child
+houseagent                     Maid saw:      hungry child
+maidagent                      Belief changed: NOT  comfort child
+houseagent                     Maid saw: NOT  comfort child
+houseagent                     Belief changed:      in dad livingroom
+houseagent                     Belief changed: NOT  in dad bathroom
+houseagent                     Belief changed: NOT  hot dad
+houseagent                     Belief changed:      hungry dad
+houseagent                     Belief changed: NOT  in mom livingroom
+houseagent                     Belief changed:      in mom bathroom
+houseagent                     Belief changed:      hungry mom
+houseagent                     Belief changed: NOT  comfort mom
+houseagent                     Belief changed: NOT  in child livingroom
+houseagent                     Belief changed:      in child kitchen
+houseagent                     Belief changed:      hungry child
+houseagent                     Belief changed: NOT  comfort child
+houseagent>SensorIntention#0   [sense] on light-stair
+houseagent>SensorIntention#0   [sense] on light-kitchen
+maidagent>MaidSensorIntention#1 [sense] dad in livingroom
+maidagent>MaidSensorIntention#1 [sense] dad is hungry
+houseagent                     Belief changed: NOT  off light-stair
+houseagent                     Belief changed:      on light-stair
+houseagent                     Belief changed:      on light-kitchen
+houseagent                     Belief changed: NOT  off light-kitchen
+maidagent                      Belief changed: NOT  off light-stair
+houseagent                     Maid saw: NOT  off light-stair
+maidagent                      Belief changed:      on light-stair
+houseagent                     Maid saw:      on light-stair
+maidagent                      Belief changed:      on light-kitchen
+houseagent                     Maid saw:      on light-kitchen
+maidagent                      Belief changed: NOT  off light-kitchen
+houseagent                     Maid saw: NOT  off light-kitchen
+maidagent>PlanningIntention#23  =========== PLAN =========== 
+maidagent>PlanningIntention#23 1 (givefood kitchen child)
+maidagent>PlanningIntention#23 1 (givefood livingroom dad)
+maidagent>PlanningIntention#23 1 (givefood bathroom mom)
+maidagent>PlanningIntention#23  =========== END PLAN =========== 
+maidagent>PlanningIntention#23 Starting sequential step with Intention: 
+ - Action: GiveFood
+ - Params: kitchen child)
+ - Effect: comfort child
+maidagent>GiveFood#24          [SUCCESSED] comfort child
+[33m[status] child is comfort[0m
+d:hh:mm 0:12:15	houseagent>PlanningIntention#22  =========== PLAN =========== 
+houseagent>PlanningIntention#22 1 (checklocation maidagent livingroom dad)
+houseagent>PlanningIntention#22 1 (lightoff light-stair stair)
+houseagent>PlanningIntention#22 2 (observeroomempty maidagent livingroom mom child dad)
+houseagent>PlanningIntention#22 3 (lightoff light-livingroom livingroom)
+houseagent>PlanningIntention#22 3 (moveagent maidagent livingroom kitchen)
+houseagent>PlanningIntention#22 4 (checklocation maidagent kitchen child)
+houseagent>PlanningIntention#22 5 (observeroomempty maidagent kitchen dad mom child)
+houseagent>PlanningIntention#22 6 (lightoff light-kitchen kitchen)
+houseagent>PlanningIntention#22 6 (moveagent maidagent kitchen bathroom)
+houseagent>PlanningIntention#22 7 (checklocation maidagent bathroom mom)
+houseagent>PlanningIntention#22 8 (observeroomempty maidagent bathroom dad child mom)
+houseagent>PlanningIntention#22 9 (lightoff light-bathroom bathroom)
+houseagent>PlanningIntention#22  =========== END PLAN =========== 
+houseagent>PlanningIntention#22 Starting sequential step with Intention: 
+ - Action: CheckLocation
+ - Params: maidagent livingroom dad)
+ - Effect: not in dad livingroom
+precondition not satisfied: not in dad livingroom
+maidagent>PlanningIntention#23 Starting sequential step with Intention: 
+ - Action: GiveFood
+ - Params: livingroom dad)
+ - Effect: comfort dad
+maidagent>GiveFood#25          [SUCCESSED] comfort dad
+[33m[status] dad is comfort[0m
+houseagent>PlanningIntention#22 Starting sequential step with Intention: 
+ - Action: LightOff
+ - Params: light-stair stair)
+ - Effect: off light-stair
+[32m[device] light-stair (off)[0m
+houseagent>LightOff#28         [SUCCESSED] off light-stair
+houseagent>SensorIntention#0   [sense] off light-stair
+houseagent                     Belief changed:      off light-stair
+houseagent                     Belief changed: NOT  on light-stair
+maidagent                      Belief changed:      off light-stair
+houseagent                     Maid saw:      off light-stair
+maidagent                      Belief changed: NOT  on light-stair
+houseagent                     Maid saw: NOT  on light-stair
+maidagent>PlanningIntention#23 Starting sequential step with Intention: 
+ - Action: GiveFood
+ - Params: bathroom mom)
+ - Effect: comfort mom
+maidagent>GiveFood#26          [SUCCESSED] comfort mom
+[33m[status] mom is comfort[0m
+houseagent>PlanningIntention#22 Starting sequential step with Intention: 
+ - Action: ObserveRoomEmpty
+ - Params: maidagent livingroom mom child dad)
+ - Effect: empty livingroom
+precondition not satisfied: not in dad livingroom
+maidagent                      Succesfully used intention PlanningIntention to achieve goal {PddlGoal#23:{goal:["comfort mom","comfort dad","comfort child"]}}
+d:hh:mm 0:12:30	houseagent>PlanningIntention#22 Starting sequential step with Intention: 
+ - Action: LightOff
+ - Params: light-livingroom livingroom)
+ - Effect: off light-livingroom
+precondition not satisfied: empty livingroom
+d:hh:mm 0:12:45	houseagent>PlanningIntention#22 Starting sequential step with Intention: 
+ - Action: MoveAgent
+ - Params: maidagent livingroom kitchen)
+ - Effect: in maidagent kitchen,not in maidagent livingroom
+maidagent                      [move] maidagent -> kitchen
+houseagent>MoveAgent#31        [SUCCESSED] in maidagent kitchen,not in maidagent livingroom
+maidagent                      Belief changed: NOT  in maidagent livingroom
+houseagent                     Maid saw: NOT  in maidagent livingroom
+maidagent                      Belief changed:      in maidagent kitchen
+houseagent                     Maid saw:      in maidagent kitchen
+houseagent                     Belief changed: NOT  in maidagent livingroom
+houseagent                     Belief changed:      in maidagent kitchen
+maidagent>MaidSensorIntention#1 [sense] child in kitchen
+maidagent>MaidSensorIntention#1 [sense] child is comfort
+maidagent                      Belief changed: NOT  hungry child
+houseagent                     Maid saw: NOT  hungry child
+maidagent                      Belief changed:      comfort child
+houseagent                     Maid saw:      comfort child
+houseagent                     Belief changed: NOT  hungry child
+houseagent                     Belief changed:      comfort child
+houseagent>PlanningIntention#22 Starting sequential step with Intention: 
+ - Action: CheckLocation
+ - Params: maidagent kitchen child)
+ - Effect: not in child kitchen
+precondition not satisfied: not in child kitchen
+houseagent>PlanningIntention#22 Starting sequential step with Intention: 
+ - Action: ObserveRoomEmpty
+ - Params: maidagent kitchen dad mom child)
+ - Effect: empty kitchen
+precondition not satisfied: not in child kitchen
+houseagent>PlanningIntention#22 Starting sequential step with Intention: 
+ - Action: LightOff
+ - Params: light-kitchen kitchen)
+ - Effect: off light-kitchen
+precondition not satisfied: empty kitchen
+houseagent>PlanningIntention#22 Starting sequential step with Intention: 
+ - Action: MoveAgent
+ - Params: maidagent kitchen bathroom)
+ - Effect: in maidagent bathroom,not in maidagent kitchen
+maidagent                      [move] maidagent -> bathroom
+houseagent>MoveAgent#35        [SUCCESSED] in maidagent bathroom,not in maidagent kitchen
+maidagent                      Belief changed:      in maidagent bathroom
+houseagent                     Maid saw:      in maidagent bathroom
+maidagent                      Belief changed: NOT  in maidagent kitchen
+houseagent                     Maid saw: NOT  in maidagent kitchen
+houseagent                     Belief changed:      in maidagent bathroom
+houseagent                     Belief changed: NOT  in maidagent kitchen
+maidagent>MaidSensorIntention#1 [sense] mom in bathroom
+maidagent>MaidSensorIntention#1 [sense] mom is comfort
+maidagent                      Belief changed: NOT  hungry mom
+houseagent                     Maid saw: NOT  hungry mom
+maidagent                      Belief changed:      comfort mom
+houseagent                     Maid saw:      comfort mom
+houseagent                     Belief changed: NOT  hungry mom
+houseagent                     Belief changed:      comfort mom
+houseagent>PlanningIntention#22 Starting sequential step with Intention: 
+ - Action: CheckLocation
+ - Params: maidagent bathroom mom)
+ - Effect: not in mom bathroom
+precondition not satisfied: not in mom bathroom
+houseagent>PlanningIntention#22 Starting sequential step with Intention: 
+ - Action: ObserveRoomEmpty
+ - Params: maidagent bathroom dad child mom)
+ - Effect: empty bathroom
+precondition not satisfied: not in mom bathroom
+houseagent>PlanningIntention#22 Starting sequential step with Intention: 
+ - Action: LightOff
+ - Params: light-bathroom bathroom)
+ - Effect: off light-bathroom
+precondition not satisfied: empty bathroom
+houseagent                     Succesfully used intention PlanningIntention to achieve goal {PddlGoal#22:{goal:["off light-livingroom","off light-bathroom","off light-kitchen","off light-stair","off light-bedroom","off light-livingroom","off light-bathroom","off light-kitchen","off light-stair","off light-bedroom"]}}
+d:hh:mm 0:13:00	d:hh:mm 0:13:15	d:hh:mm 0:13:30	d:hh:mm 0:13:45	d:hh:mm 0:14:00	d:hh:mm 0:14:15	d:hh:mm 0:14:30	d:hh:mm 0:14:45	d:hh:mm 0:15:00	d:hh:mm 0:15:15	d:hh:mm 0:15:30	d:hh:mm 0:15:45	d:hh:mm 0:16:00	d:hh:mm 0:16:15	d:hh:mm 0:16:30	d:hh:mm 0:16:45	d:hh:mm 0:17:00	[34m[person] (child) move from (kitchen) to (stair)[0m
+[30m[device] light-kitchen still (on)[0m
+[32m[device] light-stair (on)[0m
+[34m[person] (dad) move from (livingroom) to (bedroom)[0m
+[30m[device] light-livingroom still (on)[0m
+[30m[device] light-stair still (on)[0m
+[32m[device] light-bedroom (on)[0m
+[34m[person] (mom) move from (bathroom) to (livingroom)[0m
+[30m[device] light-bathroom still (on)[0m
+[30m[device] light-stair still (on)[0m
+[30m[device] light-livingroom still (on)[0m
+houseagent                     Trying to use intention PlanningIntention to achieve goal {PddlGoal#39:{goal:["off light-livingroom","off light-bathroom","off light-kitchen","off light-stair","off light-bedroom","off light-livingroom","off light-bathroom","off light-kitchen","off light-stair","off light-bedroom"]}}
+maidagent                      Trying to use intention PlanningIntention to achieve goal {PddlGoal#40:{goal:["comfort mom","comfort dad","comfort child"]}}
+[33m[move] child -> stair[0m
+[33m[status] child is cold[0m
+[33m[move] dad -> stair[0m
+[33m[move] dad -> bedroom[0m
+[33m[status] dad is cold[0m
+[33m[move] mom -> stair[0m
+[33m[move] mom -> livingroom[0m
+[33m[status] mom is hungry[0m
+maidagent                      Belief changed: NOT  in dad livingroom
+houseagent                     Maid saw: NOT  in dad livingroom
+maidagent                      Belief changed:      in dad bedroom
+houseagent                     Maid saw:      in dad bedroom
+maidagent                      Belief changed:      cold dad
+houseagent                     Maid saw:      cold dad
+maidagent                      Belief changed: NOT  hungry dad
+houseagent                     Maid saw: NOT  hungry dad
+maidagent                      Belief changed:      in mom livingroom
+houseagent                     Maid saw:      in mom livingroom
+maidagent                      Belief changed: NOT  in mom bathroom
+houseagent                     Maid saw: NOT  in mom bathroom
+maidagent                      Belief changed:      hungry mom
+houseagent                     Maid saw:      hungry mom
+maidagent                      Belief changed: NOT  comfort mom
+houseagent                     Maid saw: NOT  comfort mom
+maidagent                      Belief changed: NOT  in child kitchen
+houseagent                     Maid saw: NOT  in child kitchen
+maidagent                      Belief changed:      in child stair
+houseagent                     Maid saw:      in child stair
+maidagent                      Belief changed:      cold child
+houseagent                     Maid saw:      cold child
+maidagent                      Belief changed: NOT  comfort child
+houseagent                     Maid saw: NOT  comfort child
+houseagent                     Belief changed: NOT  in dad livingroom
+houseagent                     Belief changed:      in dad bedroom
+houseagent                     Belief changed:      cold dad
+houseagent                     Belief changed: NOT  hungry dad
+houseagent                     Belief changed:      in mom livingroom
+houseagent                     Belief changed: NOT  in mom bathroom
+houseagent                     Belief changed:      hungry mom
+houseagent                     Belief changed: NOT  comfort mom
+houseagent                     Belief changed: NOT  in child kitchen
+houseagent                     Belief changed:      in child stair
+houseagent                     Belief changed:      cold child
+houseagent                     Belief changed: NOT  comfort child
+houseagent>SensorIntention#0   [sense] on light-stair
+houseagent>SensorIntention#0   [sense] on light-bedroom
+houseagent                     Belief changed: NOT  off light-stair
+houseagent                     Belief changed:      on light-stair
+houseagent                     Belief changed:      on light-bedroom
+houseagent                     Belief changed: NOT  off light-bedroom
+maidagent                      Belief changed: NOT  off light-stair
+houseagent                     Maid saw: NOT  off light-stair
+maidagent                      Belief changed:      on light-stair
+houseagent                     Maid saw:      on light-stair
+maidagent                      Belief changed:      on light-bedroom
+houseagent                     Maid saw:      on light-bedroom
+maidagent                      Belief changed: NOT  off light-bedroom
+houseagent                     Maid saw: NOT  off light-bedroom
+maidagent>PlanningIntention#40  =========== PLAN =========== 
+maidagent>PlanningIntention#40 1 (increaseheat heater-stair stair windows-stair)
+maidagent>PlanningIntention#40 1 (increaseheat heater-bedroom bedroom windows-bedroom)
+maidagent>PlanningIntention#40 1 (givefood livingroom mom)
+maidagent>PlanningIntention#40 2 (reducecold stair child heater-stair)
+maidagent>PlanningIntention#40 2 (reducecold bedroom dad heater-bedroom)
+maidagent>PlanningIntention#40  =========== END PLAN =========== 
+maidagent>PlanningIntention#40 Starting sequential step with Intention: 
+ - Action: IncreaseHeat
+ - Params: heater-stair stair windows-stair)
+ - Effect: on heater-stair
+[32m[device] heater-stair (on)[0m
+maidagent>IncreaseHeat#41      [SUCCESSED] on heater-stair
+houseagent>SensorIntention#0   [sense] on heater-stair
+houseagent                     Belief changed:      on heater-stair
+houseagent                     Belief changed: NOT  off heater-stair
+maidagent                      Belief changed:      on heater-stair
+houseagent                     Maid saw:      on heater-stair
+maidagent                      Belief changed: NOT  off heater-stair
+houseagent                     Maid saw: NOT  off heater-stair
+d:hh:mm 0:17:15	houseagent>PlanningIntention#39  =========== PLAN =========== 
+houseagent>PlanningIntention#39 1 (lightoff light-stair stair)
+houseagent>PlanningIntention#39 1 (observeroomempty maidagent bathroom dad child mom)
+houseagent>PlanningIntention#39 1 (lightoff light-bedroom bedroom)
+houseagent>PlanningIntention#39 2 (moveagent maidagent bathroom kitchen)
+houseagent>PlanningIntention#39 2 (lightoff light-bathroom bathroom)
+houseagent>PlanningIntention#39 3 (observeroomempty maidagent kitchen dad mom child)
+houseagent>PlanningIntention#39 4 (lightoff light-kitchen kitchen)
+houseagent>PlanningIntention#39 4 (moveagent maidagent kitchen livingroom)
+houseagent>PlanningIntention#39 5 (checklocation maidagent livingroom mom)
+houseagent>PlanningIntention#39 6 (observeroomempty maidagent livingroom mom child dad)
+houseagent>PlanningIntention#39 7 (lightoff light-livingroom livingroom)
+houseagent>PlanningIntention#39  =========== END PLAN =========== 
+houseagent>PlanningIntention#39 Starting sequential step with Intention: 
+ - Action: LightOff
+ - Params: light-stair stair)
+ - Effect: off light-stair
+[32m[device] light-stair (off)[0m
+houseagent>LightOff#46         [SUCCESSED] off light-stair
+houseagent>SensorIntention#0   [sense] off light-stair
+houseagent                     Belief changed:      off light-stair
+houseagent                     Belief changed: NOT  on light-stair
+maidagent                      Belief changed:      off light-stair
+houseagent                     Maid saw:      off light-stair
+maidagent                      Belief changed: NOT  on light-stair
+houseagent                     Maid saw: NOT  on light-stair
+maidagent>PlanningIntention#40 Starting sequential step with Intention: 
+ - Action: IncreaseHeat
+ - Params: heater-bedroom bedroom windows-bedroom)
+ - Effect: on heater-bedroom
+[32m[device] heater-bedroom (on)[0m
+maidagent>IncreaseHeat#42      [SUCCESSED] on heater-bedroom
+houseagent>SensorIntention#0   [sense] on heater-bedroom
+houseagent                     Belief changed:      on heater-bedroom
+houseagent                     Belief changed: NOT  off heater-bedroom
+maidagent                      Belief changed:      on heater-bedroom
+houseagent                     Maid saw:      on heater-bedroom
+maidagent                      Belief changed: NOT  off heater-bedroom
+houseagent                     Maid saw: NOT  off heater-bedroom
+houseagent>PlanningIntention#39 Starting sequential step with Intention: 
+ - Action: ObserveRoomEmpty
+ - Params: maidagent bathroom dad child mom)
+ - Effect: empty bathroom
+houseagent>ObserveRoomEmpty#47 [SUCCESSED] empty bathroom
+houseagent                     Belief changed:      empty bathroom
+maidagent>PlanningIntention#40 Starting sequential step with Intention: 
+ - Action: GiveFood
+ - Params: livingroom mom)
+ - Effect: comfort mom
+maidagent>GiveFood#43          [SUCCESSED] comfort mom
+[33m[status] mom is comfort[0m
+houseagent>PlanningIntention#39 Starting sequential step with Intention: 
+ - Action: LightOff
+ - Params: light-bedroom bedroom)
+ - Effect: off light-bedroom
+[32m[device] light-bedroom (off)[0m
+houseagent>LightOff#48         [SUCCESSED] off light-bedroom
+houseagent>SensorIntention#0   [sense] off light-bedroom
+houseagent                     Belief changed: NOT  on light-bedroom
+houseagent                     Belief changed:      off light-bedroom
+maidagent                      Belief changed: NOT  on light-bedroom
+houseagent                     Maid saw: NOT  on light-bedroom
+maidagent                      Belief changed:      off light-bedroom
+houseagent                     Maid saw:      off light-bedroom
+maidagent>PlanningIntention#40 Starting sequential step with Intention: 
+ - Action: ReduceCold
+ - Params: stair child heater-stair)
+ - Effect: comfort child
+maidagent>ReduceCold#44        [SUCCESSED] comfort child
+[33m[status] child is comfort[0m
+houseagent>PlanningIntention#39 Starting sequential step with Intention: 
+ - Action: MoveAgent
+ - Params: maidagent bathroom kitchen)
+ - Effect: in maidagent kitchen,not in maidagent bathroom
+maidagent                      [move] maidagent -> kitchen
+houseagent>MoveAgent#49        [SUCCESSED] in maidagent kitchen,not in maidagent bathroom
+maidagent                      Belief changed: NOT  in maidagent bathroom
+houseagent                     Maid saw: NOT  in maidagent bathroom
+maidagent                      Belief changed:      in maidagent kitchen
+houseagent                     Maid saw:      in maidagent kitchen
+houseagent                     Belief changed: NOT  in maidagent bathroom
+houseagent                     Belief changed:      in maidagent kitchen
+maidagent>PlanningIntention#40 Starting sequential step with Intention: 
+ - Action: ReduceCold
+ - Params: bedroom dad heater-bedroom)
+ - Effect: comfort dad
+maidagent>ReduceCold#45        [SUCCESSED] comfort dad
+[33m[status] dad is comfort[0m
+houseagent>PlanningIntention#39 Starting sequential step with Intention: 
+ - Action: LightOff
+ - Params: light-bathroom bathroom)
+ - Effect: off light-bathroom
+[32m[device] light-bathroom (off)[0m
+houseagent>LightOff#50         [SUCCESSED] off light-bathroom
+houseagent>SensorIntention#0   [sense] off light-bathroom
+houseagent                     Belief changed: NOT  on light-bathroom
+houseagent                     Belief changed:      off light-bathroom
+maidagent                      Belief changed: NOT  on light-bathroom
+houseagent                     Maid saw: NOT  on light-bathroom
+maidagent                      Belief changed:      off light-bathroom
+houseagent                     Maid saw:      off light-bathroom
+maidagent                      Succesfully used intention PlanningIntention to achieve goal {PddlGoal#40:{goal:["comfort mom","comfort dad","comfort child"]}}
+houseagent>PlanningIntention#39 Starting sequential step with Intention: 
+ - Action: ObserveRoomEmpty
+ - Params: maidagent kitchen dad mom child)
+ - Effect: empty kitchen
+houseagent>ObserveRoomEmpty#51 [SUCCESSED] empty kitchen
+houseagent                     Belief changed:      empty kitchen
+d:hh:mm 0:17:30	houseagent>PlanningIntention#39 Starting sequential step with Intention: 
+ - Action: LightOff
+ - Params: light-kitchen kitchen)
+ - Effect: off light-kitchen
+[32m[device] light-kitchen (off)[0m
+houseagent>LightOff#52         [SUCCESSED] off light-kitchen
+houseagent>SensorIntention#0   [sense] off light-kitchen
+houseagent                     Belief changed: NOT  on light-kitchen
+houseagent                     Belief changed:      off light-kitchen
+maidagent                      Belief changed: NOT  on light-kitchen
+houseagent                     Maid saw: NOT  on light-kitchen
+maidagent                      Belief changed:      off light-kitchen
+houseagent                     Maid saw:      off light-kitchen
+houseagent>PlanningIntention#39 Starting sequential step with Intention: 
+ - Action: MoveAgent
+ - Params: maidagent kitchen livingroom)
+ - Effect: in maidagent livingroom,not in maidagent kitchen
+maidagent                      [move] maidagent -> livingroom
+houseagent>MoveAgent#53        [SUCCESSED] in maidagent livingroom,not in maidagent kitchen
+maidagent                      Belief changed:      in maidagent livingroom
+houseagent                     Maid saw:      in maidagent livingroom
+maidagent                      Belief changed: NOT  in maidagent kitchen
+houseagent                     Maid saw: NOT  in maidagent kitchen
+houseagent                     Belief changed:      in maidagent livingroom
+houseagent                     Belief changed: NOT  in maidagent kitchen
+maidagent>MaidSensorIntention#1 [sense] mom in livingroom
+maidagent>MaidSensorIntention#1 [sense] mom is comfort
+maidagent                      Belief changed: NOT  hungry mom
+houseagent                     Maid saw: NOT  hungry mom
+maidagent                      Belief changed:      comfort mom
+houseagent                     Maid saw:      comfort mom
+houseagent                     Belief changed: NOT  hungry mom
+houseagent                     Belief changed:      comfort mom
+houseagent>PlanningIntention#39 Starting sequential step with Intention: 
+ - Action: CheckLocation
+ - Params: maidagent livingroom mom)
+ - Effect: not in mom livingroom
+precondition not satisfied: not in mom livingroom
+houseagent>PlanningIntention#39 Starting sequential step with Intention: 
+ - Action: ObserveRoomEmpty
+ - Params: maidagent livingroom mom child dad)
+ - Effect: empty livingroom
+precondition not satisfied: not in mom livingroom
+houseagent>PlanningIntention#39 Starting sequential step with Intention: 
+ - Action: LightOff
+ - Params: light-livingroom livingroom)
+ - Effect: off light-livingroom
+precondition not satisfied: empty livingroom
+houseagent                     Succesfully used intention PlanningIntention to achieve goal {PddlGoal#39:{goal:["off light-livingroom","off light-bathroom","off light-kitchen","off light-stair","off light-bedroom","off light-livingroom","off light-bathroom","off light-kitchen","off light-stair","off light-bedroom"]}}
+d:hh:mm 0:17:45	d:hh:mm 0:18:00	d:hh:mm 0:18:15	d:hh:mm 0:18:30	d:hh:mm 0:18:45	d:hh:mm 0:19:00	d:hh:mm 0:19:15	d:hh:mm 0:19:30	d:hh:mm 0:19:45	d:hh:mm 0:20:00	d:hh:mm 0:20:15	d:hh:mm 0:20:30	d:hh:mm 0:20:45	d:hh:mm 0:21:00	d:hh:mm 0:21:15	d:hh:mm 0:21:30	d:hh:mm 0:21:45	d:hh:mm 0:22:00	d:hh:mm 0:22:15	d:hh:mm 0:22:30	d:hh:mm 0:22:45	d:hh:mm 0:23:00	d:hh:mm 0:23:15	d:hh:mm 0:23:30	d:hh:mm 0:23:45	d:hh:mm 1:00:00	[Utilities] Date 0 consumed 262.5W
+[Comfort] Date 0, comfortevents: 141, uncomfortevents: 3
+d:hh:mm 1:00:15	

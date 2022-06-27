@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Autonode.js-client</title>
+    <script src="https://kit.fontawesome.com/6e6b2e4673.js" crossorigin="anonymous"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+      var socket = io();
+      
+      // socket.on('light_on', function(status) {
+      //   var input = document.getElementById('light_on');
+      //   input.textContent = status;
+      // });
+      
+      socket.on('true', (predicate, ...args) => {
+        var fact = predicate + '(' + args.join(',') +')'
+        var eventDomElement = document.getElementById(fact);
+        if (eventDomElement==null) {
+          eventDomElement = document.createElement('h4');
+          document.body.appendChild(eventDomElement);
+        }
+        eventDomElement.textContent = fact + ': ' + true;
+      });
+      
+      socket.on('false', (predicate, ...args) => {
+        var fact = predicate + '(' + args.join(',') +')'
+        var eventDomElement = document.getElementById(fact);
+        if (eventDomElement==null) {
+          eventDomElement = document.createElement('h4');
+          document.body.appendChild(eventDomElement);
+        }
+        eventDomElement.textContent = fact + ': ' + false;
+      });
+      
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
