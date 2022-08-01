@@ -22,6 +22,7 @@ University of Trento - Trento, 2022
 
 Marco Robol - marco.robol@unitn.it
 
+=================================
 # Changelog
 
 ### 1.3.0 (10/05/2022)
